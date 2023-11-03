@@ -91,8 +91,43 @@ nav .contact {
 }
 
 footer {
-    background-color: #f4f4f4;
+    background-color: #E2E2E2;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0
+    padding: 5px 0; /* Reduzido pela metade */
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 40%; /* Reduzido pela metade */
+    margin-right: 10px; /* Reduzido pela metade */
+}
+
+.footer-center img, .footer-right img {
+    width: 40%; /* Reduzido pela metade */
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us {
+    color: red;
+    margin: 0;
+}
+
+.copyright {
+    margin: 0;
+}
